@@ -20,3 +20,16 @@ public class PrimeCheck {
             // thì n không phải là số nguyên tố.
             if (n % i == 0) return false;
         }
+return true;
+    }
+
+    public static void main(String[] args) {
+        int number = 29;
+        // Gọi hàm isPrime và in kết quả ra màn hình
+        if (isPrime(number)) {
+            System.out.println(number + " là số nguyên tố.");
+        } else {
+            System.out.println(number + " không phải là số nguyên tố.");
+        }
+    }
+}
