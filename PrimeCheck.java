@@ -10,3 +10,4 @@ public class PrimeCheck {
         System.out.println(isPrime(29)); // Output: true
     }
 }
+   if (n <= 1) return false;
