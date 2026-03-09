@@ -12,3 +12,11 @@ console.log(checkStrength("P@ss1234"));
  * @param {string} password - Chuỗi mật khẩu cần kiểm tra
  * @returns {string} - Trả về nhãn tương ứng với độ mạnh
  */
+function checkStrength(password) {
+    let strength = 0; // Biến đếm số điểm đạt được (tối đa 4 điểm)
+
+    // Điều kiện 1: Độ dài mật khẩu phải trên 7 ký tự
+    if (password.length > 7) strength++;
+
+    // Điều kiện 2: Sử dụng Regex để kiểm tra xem có ít nhất một chữ cái VIẾT HOA không
+    if (/[A-Z]/.test(password)) strength++;
