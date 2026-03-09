@@ -7,3 +7,8 @@ function checkStrength(password) {
     return ["Yếu", "Trung bình", "Khá", "Mạnh"][strength - 1] || "Rất yếu";
 }
 console.log(checkStrength("P@ss1234"));
+/**
+ * Hàm kiểm tra độ mạnh của mật khẩu
+ * @param {string} password - Chuỗi mật khẩu cần kiểm tra
+ * @returns {string} - Trả về nhãn tương ứng với độ mạnh
+ */
