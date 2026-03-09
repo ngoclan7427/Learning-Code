@@ -12,3 +12,7 @@ from PIL import Image  # Nhập module Image từ thư viện Pillow (PIL) để
 def convert_img_pdf(img_path, pdf_path):
     # Mở tệp hình ảnh từ đường dẫn được cung cấp (img_path)
     image = Image.open(img_path)
+ # Chuyển đổi hệ màu của ảnh sang 'RGB'
+    # Bước này rất quan trọng vì PDF thường yêu cầu định dạng RGB, 
+    # và nó giúp loại bỏ kênh Alpha (độ trong suốt) nếu ảnh gốc là PNG
+    img_converted = image.convert('RGB')
