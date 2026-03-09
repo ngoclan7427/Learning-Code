@@ -7,3 +7,8 @@ def convert_img_pdf(img_path, pdf_path):
     print("Đã chuyển đổi xong!")
 
 # convert_img_pdf("image.jpg", "output.pdf")
+from PIL import Image  # Nhập module Image từ thư viện Pillow (PIL) để xử lý hình ảnh
+
+def convert_img_pdf(img_path, pdf_path):
+    # Mở tệp hình ảnh từ đường dẫn được cung cấp (img_path)
+    image = Image.open(img_path)
