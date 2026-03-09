@@ -11,3 +11,4 @@ public class PrimeCheck {
     }
 }
    if (n <= 1) return false;
+// Bước 1: Các số <= 1 không phải là số nguyên tố (ví dụ: 0, 1, số âm)
