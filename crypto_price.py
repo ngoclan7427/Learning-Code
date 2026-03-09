@@ -18,3 +18,8 @@ def get_btc_price():
     # Truy cập vào các khóa trong Dictionary để lấy giá trị 'rate' (giá Bitcoin) của đồng USD
     # Cấu trúc JSON: response -> 'bpi' -> 'USD' -> 'rate'
     price = response['bpi']['USD']['rate']
+ # In giá Bitcoin hiện tại ra màn hình
+    print(f"Giá Bitcoin hiện tại: ${price}")
+
+# Gọi hàm để thực thi việc lấy và in giá
+get_btc_price()
