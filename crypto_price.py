@@ -7,3 +7,8 @@ def get_btc_price():
     print(f"Giá Bitcoin hiện tại: ${price}")
 
 get_btc_price()
+import requests  # Import thư viện requests để gửi yêu cầu HTTP đến API
+
+def get_btc_price():
+    # URL của API CoinDesk cung cấp giá Bitcoin thời gian thực (định dạng JSON)
+    url = "https://api.coindesk.com/v1/bpi/currentprice.json"
