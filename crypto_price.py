@@ -23,3 +23,14 @@ def get_btc_price():
 
 # Gọi hàm để thực thi việc lấy và in giá
 get_btc_price()
+{
+  "bpi": {
+    "USD": {
+      "code": "USD",
+      "rate": "65,432.10",
+      "description": "United States Dollar",
+      "rate_float": 65432.1
+    },
+    ...
+  }
+}
