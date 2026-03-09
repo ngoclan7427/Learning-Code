@@ -20,3 +20,9 @@ function checkStrength(password) {
 
     // Điều kiện 2: Sử dụng Regex để kiểm tra xem có ít nhất một chữ cái VIẾT HOA không
     if (/[A-Z]/.test(password)) strength++;
+// Điều kiện 3: Kiểm tra xem có ít nhất một chữ số (0-9) không
+    if (/[0-9]/.test(password)) strength++;
+
+    // Điều kiện 4: Kiểm tra xem có ít nhất một ký tự đặc biệt không
+    // [^A-Za-z0-9] có nghĩa là bất kỳ ký tự nào KHÔNG phải là chữ cái hay chữ số
+    if (/[^A-Za-z0-9]/.test(password)) strength++;
