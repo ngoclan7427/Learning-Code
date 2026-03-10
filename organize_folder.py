@@ -12,3 +12,9 @@ for file in files:
     else:
         os.makedirs(path+'/'+extension)
         shutil.move(path+'/'+file, path+'/'+extension+'/'+file)
+import os
+import shutil
+
+# Đoạn code này tự động phân loại và di chuyển các tệp tin vào thư mục riêng dựa trên phần mở rộng (đuôi file) của chúng
+path = "/Users/YourName/Downloads"
+files = os.listdir(path)
