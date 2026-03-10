@@ -10,3 +10,9 @@ def download_video(url):
 
 link = input("Nhập link YouTube: ")
 download_video(link)
+from pytube import YouTube  # Nhập thư viện pytube để làm việc với YouTube
+
+def download_video(url):
+    try:
+        # Khởi tạo đối tượng YouTube từ đường dẫn (URL) truyền vào
+        yt = YouTube(url)
