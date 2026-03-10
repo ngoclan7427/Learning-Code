@@ -11,3 +11,5 @@ def generate_password(length):
   chars = string.ascii_letters + string.digits + "!@#$%^&*"
     return ''.join(random.choice(chars) for i in range(length))
 print("Mật khẩu mới của bạn là:", generate_password(12))
+import string  # Nhập thư viện chứa các chuỗi ký tự mẫu (chữ cái, chữ số)
+import random  # Nhập thư viện để thực hiện việc chọn ngẫu nhiên
