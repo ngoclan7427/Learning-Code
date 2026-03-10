@@ -16,3 +16,13 @@ def download_video(url):
     try:
         # Khởi tạo đối tượng YouTube từ đường dẫn (URL) truyền vào
         yt = YouTube(url)
+ # Hiển thị tiêu đề của video đang chuẩn bị tải
+        print(f"Đang tải: {yt.title}")
+        
+        # Lấy luồng video (stream) có độ phân giải cao nhất có sẵn
+        stream = yt.streams.get_highest_resolution()
+        
+        # Thực hiện tải video về thư mục hiện tại của file code
+        stream.download()
+        
+        print("Tải xuống thành công!")
