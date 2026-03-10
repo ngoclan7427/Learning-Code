@@ -26,3 +26,6 @@ def download_video(url):
         stream.download()
         
         print("Tải xuống thành công!")
+except Exception as e:
+        # Nếu có lỗi xảy ra (sai link, lỗi mạng...), chương trình sẽ nhảy vào đây
+        print(f"Lỗi: {e}")
