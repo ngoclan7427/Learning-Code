@@ -19,3 +19,8 @@ def generate_password(length):
     # string.digits: bao gồm các chữ số từ 0-9
     # "!@#$%^&*": các ký tự đặc biệt tự định nghĩa thêm
     chars = string.ascii_letters + string.digits + "!@#$%^&*"
+    
+# Sử dụng vòng lặp (for) chạy 'length' lần:
+    # Mỗi lần lặp, random.choice(chars) sẽ chọn ngẫu nhiên 1 ký tự từ chuỗi chars
+    # ''.join(...) sẽ nối tất cả các ký tự đơn lẻ đó thành một chuỗi mật khẩu hoàn chỉnh
+    return ''.join(random.choice(chars) for i in range(length))
