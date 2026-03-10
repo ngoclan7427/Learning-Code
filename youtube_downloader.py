@@ -29,3 +29,8 @@ def download_video(url):
 except Exception as e:
         # Nếu có lỗi xảy ra (sai link, lỗi mạng...), chương trình sẽ nhảy vào đây
         print(f"Lỗi: {e}")
+# Yêu cầu người dùng nhập đường link từ bàn phím
+link = input("Nhập link YouTube: ")
+
+# Gọi hàm download_video với tham số là đường link vừa nhập
+download_video(link)
