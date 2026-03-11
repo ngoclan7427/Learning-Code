@@ -18,6 +18,6 @@ def convert_img_pdf(img_path, pdf_path):
     img_converted = image.convert('RGB')
 # Lưu ảnh đã chuyển đổi dưới định dạng PDF vào đường dẫn pdf_path
     # Thư viện Pillow sẽ tự nhận diện định dạng dựa trên đuôi file .pdf
-    img_converted.save(pdf_path)
+
     
 
