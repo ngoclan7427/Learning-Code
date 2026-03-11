@@ -33,6 +33,3 @@ function checkStrength(password) {
      * strength = 3 -> index 2: "Khá"
      * strength = 4 -> index 3: "Mạnh"
      * Nếu strength = 0, kết quả của mảng là undefined, toán tử || sẽ lấy giá trị mặc định là "Rất yếu"
-     */
-    return ["Yếu", "Trung bình", "Khá", "Mạnh"][strength - 1] || "Rất yếu";
-}
