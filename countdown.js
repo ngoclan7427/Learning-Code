@@ -6,7 +6,5 @@ function startTimer(duration) {
 
         console.log(minutes + ":" + (seconds < 10 ? "0" : "") + seconds);
 
-        if (--timer < 0) {
-            console.log("Hết giờ!");
-            timer = 0;
+      
 
