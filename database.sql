@@ -19,6 +19,6 @@ id INT PRIMARY KEY AUTO_INCREMENT,
     email VARCHAR(100) UNIQUE,
  -- Cột created_at: lưu thời gian, mặc định sẽ lấy thời gian hiện tại của hệ thống khi tạo bản ghi (DEFAULT CURRENT_TIMESTAMP)
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+
 
 
