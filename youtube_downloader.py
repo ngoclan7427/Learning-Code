@@ -30,6 +30,6 @@ except Exception as e:
         # Nếu có lỗi xảy ra (sai link, lỗi mạng...), chương trình sẽ nhảy vào đây
         print(f"Lỗi: {e}")
 # Yêu cầu người dùng nhập đường link từ bàn phím
-link = input("Nhập link YouTube: ")
+
 
 
