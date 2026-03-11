@@ -21,7 +21,4 @@ id INT PRIMARY KEY AUTO_INCREMENT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Chèn một bản ghi mới vào bảng Users
--- Ở đây chỉ cần chèn 'username' và 'email' vì 'id' và 'created_at' đã có cơ chế tự động
-INSERT INTO Users (username, email) 
-VALUES ('admin', 'admin@example.com');
+
