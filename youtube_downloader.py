@@ -32,5 +32,4 @@ except Exception as e:
 # Yêu cầu người dùng nhập đường link từ bàn phím
 link = input("Nhập link YouTube: ")
 
-# Gọi hàm download_video với tham số là đường link vừa nhập
-download_video(link)
+
