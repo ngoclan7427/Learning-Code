@@ -30,7 +30,4 @@ get_btc_price()
       "rate": "65,432.10",
       "description": "United States Dollar",
       "rate_float": 65432.1
-    },
-    ...
-  }
-}
+  
