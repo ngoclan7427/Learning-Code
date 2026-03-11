@@ -20,7 +20,4 @@ def convert_img_pdf(img_path, pdf_path):
     # Thư viện Pillow sẽ tự nhận diện định dạng dựa trên đuôi file .pdf
     img_converted.save(pdf_path)
     
-    # Thông báo ra màn hình sau khi hoàn tất
-    print("Đã chuyển đổi xong!")
-# Ví dụ cách sử dụng hàm (bỏ dấu # ở dòng dưới để chạy thử):
-# convert_img_pdf("anh_cua_toi.jpg", "ket_qua.pdf")
+
