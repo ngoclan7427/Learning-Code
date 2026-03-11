@@ -9,7 +9,4 @@ function startTimer(duration) {
         if (--timer < 0) {
             console.log("Hết giờ!");
             timer = 0;
-        }
-    }, 1000);
-}
-startTimer(60); // Đếm ngược 60 giây
+
