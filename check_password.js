@@ -26,10 +26,4 @@ function checkStrength(password) {
     // Điều kiện 4: Kiểm tra xem có ít nhất một ký tự đặc biệt không
     // [^A-Za-z0-9] có nghĩa là bất kỳ ký tự nào KHÔNG phải là chữ cái hay chữ số
     if (/[^A-Za-z0-9]/.test(password)) strength++;
- /**
-     * Trả về kết quả dựa trên mảng nhãn:
-     * strength = 1 -> index 0: "Yếu"
-     * strength = 2 -> index 1: "Trung bình"
-     * strength = 3 -> index 2: "Khá"
-     * strength = 4 -> index 3: "Mạnh"
-     * Nếu strength = 0, kết quả của mảng là undefined, toán tử || sẽ lấy giá trị mặc định là "Rất yếu"
+
