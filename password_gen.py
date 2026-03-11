@@ -25,5 +25,4 @@ def generate_password(length):
     # ''.join(...) sẽ nối tất cả các ký tự đơn lẻ đó thành một chuỗi mật khẩu hoàn chỉnh
     return ''.join(random.choice(chars) for i in range(length))
     
-# Gọi hàm với độ dài mong muốn là 12 và in kết quả ra màn hình
-print("Mật khẩu mới của bạn là:", generate_password(12))
+
