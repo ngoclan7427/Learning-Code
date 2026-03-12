@@ -21,8 +21,6 @@ def get_btc_price():
  # In giá Bitcoin hiện tại ra màn hình
     print(f"Giá Bitcoin hiện tại: ${price}")
 
-# Gọi hàm để thực thi việc lấy và in giá
-get_btc_price()
-{
+
 
   
