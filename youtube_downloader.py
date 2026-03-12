@@ -25,11 +25,7 @@ def download_video(url):
         # Thực hiện tải video về thư mục hiện tại của file code
         stream.download()
         
-        print("Tải xuống thành công!")
-except Exception as e:
-        # Nếu có lỗi xảy ra (sai link, lỗi mạng...), chương trình sẽ nhảy vào đây
-        print(f"Lỗi: {e}")
-# Yêu cầu người dùng nhập đường link từ bàn phím
+
 
 
 
