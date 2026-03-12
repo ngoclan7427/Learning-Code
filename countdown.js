@@ -4,7 +4,7 @@ function startTimer(duration) {
         minutes = parseInt(timer / 60, 10);
         seconds = parseInt(timer % 60, 10);
 
-        console.log(minutes + ":" + (seconds < 10 ? "0" : "") + seconds);
+      
 
       
 
